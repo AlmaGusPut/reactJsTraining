@@ -15,7 +15,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +34,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.testClass{
+  color: #0000FF;
+}
+
+.split {
+  height: 90%;
+  width: 33%;
+  position: fixed;
+  z-index: 1;
+  top: 39px;
+  overflow-x: hidden;
+  padding-top: 20px;
+  bottom:40px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  padding-left: 100px;
+  
+}
+.middle {
+  left: 34%;
+  padding-left: 10%;
+}
+/* Control the right side */
+.right {
+  right: 0;
+  padding-right: 100px;
+}
+
+.colors{
+  background: #4343d6;
+  color: white;
+  height: 70%
 }
